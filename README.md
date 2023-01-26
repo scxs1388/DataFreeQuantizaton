@@ -27,8 +27,8 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | Generative Low-bitwidth Data Free Quantization | GDFQ | ECCV 2020 | [arXiv:2003.03603](https://arxiv.org/pdf/2003.03603.pdf) | [GitHub](https://github.com/xushoukai/GDFQ) | Adversarial |
 | Data-Free Network Quantization With Adversarial Knowledge Distillation | | CVPR Workshops 2020 | [arXiv:2005.04136](https://arxiv.org/pdf/2005.04136.pdf) | | Adversarial |
 | DFQF: Data Free Quantization-aware Fine-tuning | DFQF | ACML 2020 | [PMLR](http://proceedings.mlr.press/v129/li20a/li20a.pdf) | | Adversarial |
-| Layer-Wise Data-Free CNN Compression | | | [arXiv:2011.09058](https://arxiv.org/pdf/2011.09058.pdf) | | Estimated Data + Knowledge Distillation |
-| Learning in School: Multi-teacher Knowledge Inversion for Data-Free Quantization | LIS | | arXiv:2011.09899 (unavailable) | | Data Distillation |
+| Layer-Wise Data-Free CNN Compression | | arXiv | [arXiv:2011.09058](https://arxiv.org/pdf/2011.09058.pdf) | | Estimated Data + Knowledge Distillation |
+| Learning in School: Multi-teacher Knowledge Inversion for Data-Free Quantization | LIS | arXiv | arXiv:2011.09899 (unavailable) | | Data Distillation |
 | MixMix: All You Need for Data-Free Compression Are Feature and Data Mixing | MixMix | ICCV 2021 | [arXiv:2011.09899](https://arxiv.org/pdf/2011.09899.pdf) | | Data Distillation |
 | Generative Zero-shot Network Quantization | GZNQ ? | CVPR Workshops 2021 | [arXiv:2101.08340](https://arxiv.org/pdf/2101.08430.pdf) | | Data Distillation |
 | Diversifying Sample Generation for Accurate Data-Free Quantization | DSG | CVPR 2021 | [arXiv:2103.01049](https://arxiv.org/pdf/2103.01049.pdf) | | Data Distillation |
@@ -53,6 +53,7 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | Dual-discriminator adversarial framework for data-free quantization | DDAQ | Neurocomputing 2022 Volume 511 | [ScienceDirect](https://doi.org/10.1016/j.neucom.2022.09.076) | | Adversarial |
 | ACQ: Improving Generative Data-free Quantization Via Attention Correction | ACQ | arXiv | [arXiv:2301.07266](https://arxiv.org/pdf/2301.07266.pdf) | | Adversarial |
 | PowerQuant: Automorphism Search for Non-Uniform Quantization | PowerQuant | ICLR 2023 | [arXiv:2301.09858](https://arxiv.org/pdf/2301.09858.pdf) | | |
+| Rethinking Data-Free Quantization as a Zero-Sum Game | | AAAI 2023 | unavailable | | |
 
 # Baselines
 - If not mentioned, the result is cited from the original paper.
