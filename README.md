@@ -53,7 +53,7 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | Dual-discriminator adversarial framework for data-free quantization | DDAQ | Neurocomputing 2022 Volume 511 | [ScienceDirect](https://doi.org/10.1016/j.neucom.2022.09.076) | | Adversarial |
 | ACQ: Improving Generative Data-free Quantization Via Attention Correction | ACQ | arXiv | [arXiv:2301.07266](https://arxiv.org/pdf/2301.07266.pdf) | | Adversarial |
 | PowerQuant: Automorphism Search for Non-Uniform Quantization | PowerQuant | ICLR 2023 | [arXiv:2301.09858](https://arxiv.org/pdf/2301.09858.pdf) | | |
-| Rethinking Data-Free Quantization as a Zero-Sum Game | | AAAI 2023 | unavailable | | |
+| Rethinking Data-Free Quantization as a Zero-Sum Game | AdaSG | AAAI 2023 | unavailable | [GitHub](https://github.com/hfutqian/AdaSG) | Adversarial |
 
 # Baselines
 - If not mentioned, the result is cited from the original paper.
