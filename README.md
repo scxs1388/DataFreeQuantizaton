@@ -76,8 +76,8 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | IntraQ | CVPR 2022 | 3 | 3 | 94.03 | 77.07 | |
 | ACQ | arXiv | 4 | 4 | 93.89 | 92.07 | |
 | ACQ | arXiv | 5 | 5 | 93.89 | 93.55 | |
-| ACQ | arXiv | 4 | 4 | 93.89 | 91.62 | |
-| ACQ | arXiv | 5 | 5 | 93.89 | 93.44 | |
+| ACQ | arXiv | 4 | 4 | 93.89 | 91.62 | ACQ + AIT |
+| ACQ | arXiv | 5 | 5 | 93.89 | 93.44 | ACQ + AIT |
 
 ## ResNet-20 (CIFAR-100 Classification)
 | Method | Venue | W-bit | A-bit | FP32 Baseline | Quantized | Notes |
