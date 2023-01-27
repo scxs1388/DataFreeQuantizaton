@@ -1,4 +1,3 @@
-
 # Data-Free Quantization
 Data-Free (or Zero-Shot) Quantization is a method to quantize a deep neural network model without any original training data. It is a very challenging topic in the field of model compression. This page is a collection of papers and baselines on data-free quantization research. If you have any suggestions, please feel free to contact me.
 
@@ -30,6 +29,7 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | Layer-Wise Data-Free CNN Compression | | arXiv | [arXiv:2011.09058](https://arxiv.org/pdf/2011.09058.pdf) | | Estimated Data + Knowledge Distillation |
 | Learning in School: Multi-teacher Knowledge Inversion for Data-Free Quantization | LIS | arXiv | arXiv:2011.09899 (unavailable) | | Data Distillation |
 | MixMix: All You Need for Data-Free Compression Are Feature and Data Mixing | MixMix | ICCV 2021 | [arXiv:2011.09899](https://arxiv.org/pdf/2011.09899.pdf) | | Data Distillation |
+| Hybrid and Non-Uniform Quantization methods using retro synthesis data for efficient inference | IJCNN 2021 | [arXiv:2012.13716](https://arxiv.org/pdf/2012.13716.pdf) | | Data Distillation |
 | Generative Zero-shot Network Quantization | GZNQ ? | CVPR Workshops 2021 | [arXiv:2101.08340](https://arxiv.org/pdf/2101.08430.pdf) | | Data Distillation |
 | Diversifying Sample Generation for Accurate Data-Free Quantization | DSG | CVPR 2021 | [arXiv:2103.01049](https://arxiv.org/pdf/2103.01049.pdf) | | Data Distillation |
 | Zero-shot Adversarial Quantization | ZAQ | CVPR 2021 | [arXiv:2103.15263](https://arxiv.org/pdf/2103.15263.pdf) | [GitHub](https://github.com/FLHonker/ZAQ-code) | Adversarial |
@@ -40,7 +40,7 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | Diverse Sample Generation: Pushing the Limit of Generative Data-free Quantization | DSG* | arXiv | [arXiv:2109.00212](https://arxiv.org/pdf/2109.00212.pdf) | [GitHub](https://github.com/liuguoyou/DSG) | Data Distillation |
 | Qimera: Data-free Quantization with Synthetic Boundary Supporting Samples | Qimera | NeurIPS 2021 | [arXiv:2111.02625](https://arxiv.org/pdf/2111.02625.pdf) | [GitHub](https://github.com/iamkanghyunchoi/qimera) | Adversarial |
 | An Empirical study of Data-Free Quantization’s Tuning Robustness | | CVPR Workshops 2022 | [CVF Open Access](https://openaccess.thecvf.com/content/CVPR2022W/ArtOfRobust/papers/Chen_An_Empirical_Study_of_Data-Free_Quantizations_Tuning_Robustness_CVPRW_2022_paper.pdf) | | |
-| IntraQ: Learning Synthetic Images with Intra-Class Heterogeneity for Zero-Shot Network Quantization | IntraQ | CVPR 2022 | [arXiv:2111.09136](https://arxiv.org/pdf/2111.09136.pdf) | [GitHub](https://github.com/zysxmu/IntraQ) | Adversarial |
+| IntraQ: Learning Synthetic Images with Intra-Class Heterogeneity for Zero-Shot Network Quantization | IntraQ | CVPR 2022 | [arXiv:2111.09136](https://arxiv.org/pdf/2111.09136.pdf) | [GitHub](https://github.com/zysxmu/IntraQ) | Data Distillation |
 | Data-Free Network Compression via Parametric Non-uniform Mixed Precision Quantization | PNMQ | CVPR 2022 | [CVF Open Access](https://openaccess.thecvf.com/content/CVPR2022/papers/Chikin_Data-Free_Network_Compression_via_Parametric_Non-Uniform_Mixed_Precision_Quantization_CVPR_2022_paper.pdf) | | |
 | SQuant: On-the-Fly Data-Free Quantization via Diagnoal Hessian Approximation | SQuant | ICLR 2022 | [arXiv:2202.07471](https://arxiv.org/pdf/2202.07471.pdf) | [GitHub](https://github.com/clevercool/SQuant) | |
 | Patch Similarity Aware Data-Free Quantization for Vision Transformers | PSAQ-ViT | ECCV 2022 | [arXiv:2203.02250](https://arxiv.org/pdf/2203.02250.pdf) | [GitHub](https://github.com/zkkli/PSAQ-ViT) | Data Distillation |
@@ -49,6 +49,7 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | It’s All In the Teacher: Zero-Shot Quantization Brought Closer to the Teacher | AIT | CVPR 2022 | [arXiv:2203.17008](https://arxiv.org/pdf/2203.17008.pdf) | [GitHub](https://github.com/iamkanghyunchoi/ait) | Adversarial |
 | Data-Free Quantization with Accurate Activation Clipping and Adaptive Batch Normalization | AAC+ABN ? | arXiv | [arXiv:2204.04215](https://arxiv.org/pdf/2204.04215.pdf) | | Adversarial |
 | Towards Feature Distribution Alignment and Diversity Enhancement for Data-Free Quantization | ClusterQ | arXiv | [arXiv:2205.00179](https://arxiv.org/pdf/2205.00179.pdf) | | Adversarial |
+| ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers | ZeroQuant | NeurIPS 2022 | [arXiv:2206.01861](https://arxiv.org/pdf/2206.01861.pdf) | | |
 | PSAQ-ViT V2: Towards Accurate and General Data-Free Quantization for Vision Transformers | PSAQ-ViT V2 | arXiv | [arXiv:2209.05687](https://arxiv.org/pdf/2209.05687.pdf) | [GitHub](https://github.com/zkkli/PSAQ-ViT) | Data Distillation + Adversarial |
 | Dual-discriminator adversarial framework for data-free quantization | DDAQ | Neurocomputing 2022 Volume 511 | [ScienceDirect](https://doi.org/10.1016/j.neucom.2022.09.076) | | Adversarial |
 | ACQ: Improving Generative Data-free Quantization Via Attention Correction | ACQ | arXiv | [arXiv:2301.07266](https://arxiv.org/pdf/2301.07266.pdf) | | Adversarial |
@@ -57,15 +58,36 @@ There are two branches of data-free quantization methods: theoretical analysis a
 
 # Baselines
 - If not mentioned, the result is cited from the original paper.
-- Some of the results are not included for either very bad quantization performance (e.g. <20%) or the bitwidth setting is unusual (e.g. w8a4).
+- Some of the results are not included for either very bad quantization performance (e.g. <10% or not converge) or unusual bitwidth setting (e.g. w8a4 or w4a6).
 
 ## ResNet-20 (CIFAR-10 Classification)
 | Method | Venue | W-bit | A-bit | FP32 Baseline | Quantized | Notes |
 | - | - | -: | -: | -: | -: | - |
-| GDFQ | ECCV 2020 | 4 | 4 | 94.03 | 90.25 |  |
+| ZeroQ | CVPR 2020 | (MP) 8 | 8 | 94.03 | 93.16 | |
+| ZeroQ | CVPR 2020 | (MP) 6 | 6 | 94.03 | 93.87 | |
+| ZeroQ | CVPR 2020 | 8 | 8 | 94.03 | 93.94 | |
+| ZeroQ | CVPR 2020 | 3 | 3 | 94.03 | 29.32 | reported from *IntraQ* |
+| ZeroQ | CVPR 2020 | 4 | 4 | 93.89 | 79.30 | reported from *Qimera* |
+| ZeroQ | CVPR 2020 | 4 | 4 | 94.03 | 84.68 | reported from *IntraQ* |
+| ZeroQ | CVPR 2020 | 5 | 5 | 93.89 | 91.34 | reported from *Qimera* |
+| GDFQ | ECCV 2020 | 3 | 3 | 94.03 | 71.10 | reported from *IntraQ* |
+| GDFQ | ECCV 2020 | 4 | 4 | 94.03 | 90.25 | |
 | GDFQ | ECCV 2020 | 5 | 5 | 93.89 | 93.38 | reported from *Qimera* |
-| Qimera | NeurIPS 2021 | 4 | 4 | 93.89 | 91.26 |  |
-| Qimera | NeurIPS 2021 | 5 | 5 | 93.89 | 93.46 |  |
+| DSG | CVPR 2021 | 3 | 3 | 94.03 | 32.90 | reported from *IntraQ* |
+| DSG | CVPR 2021 | 4 | 4 | 94.03 | 88.74 | reported from *IntraQ* |
+| DSG* | CVPR 2021 | 4 | 4 | 94.08 | 87.79 | DSG data for Vanilla PTQ (Min-Max) calibration |
+| DSG* | CVPR 2021 | 6 | 6 | 94.08 | 93.55 | DSG data for Vanilla PTQ (Min-Max) calibration |
+| DSG* | CVPR 2021 | 8 | 8 | 94.08 | 93.97 | DSG data for Vanilla PTQ (Min-Max) calibration |
+| ZAQ | CVPR 2021 | 4 | 4 | 93.89 | 92.13 | reported from *Qimera* |
+| ZAQ | CVPR 2021 | 5 | 5 | 93.89 | 93.36 | reported from *Qimera* |
+| Qimera | NeurIPS 2021 | 4 | 4 | 93.89 | 91.26 | |
+| Qimera | NeurIPS 2021 | 5 | 5 | 93.89 | 93.46 | |
+| Qimera | NeurIPS 2021 | 4 | 4 | 93.89 | 91.26 | GDFQ + Qimera |
+| Qimera | NeurIPS 2021 | 5 | 5 | 93.89 | 93.46 | GDFQ + Qimera |
+| Qimera | NeurIPS 2021 | 4 | 4 | 93.89 | 93.91 | ZAQ + Qimera |
+| Qimera | NeurIPS 2021 | 5 | 5 | 93.89 | 93.84 | ZAQ + Qimera |
+| Qimera | NeurIPS 2021 | 4 | 4 | 93.89 | 91.16 | AutoReCon + Qimera |
+| Qimera | NeurIPS 2021 | 5 | 5 | 93.89 | 93.42 | AutoReCon + Qimera |
 | AIT | CVPR 2022 | 4 | 4 | 93.89 | 91.23 | GDFQ + AIT |
 | AIT | CVPR 2022 | 5 | 5 | 93.89 | 93.41 | GDFQ + AIT |
 | AIT | CVPR 2022 | 4 | 4 | 93.89 | 91.23 | Qimera + AIT |
@@ -74,6 +96,8 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | AIT | CVPR 2022 | 5 | 5 | 93.89 | 92.89 | ARC + AIT |
 | IntraQ | CVPR 2022 | 4 | 4 | 94.03 | 91.49 | |
 | IntraQ | CVPR 2022 | 3 | 3 | 94.03 | 77.07 | |
+| DDAQ | Neurocomputing 2022 | 4 | 4 | 94.03 | 92.41 | no fine-tuning |
+| DDAQ | Neurocomputing 2022 | 4 | 4 | 94.03 | 90.70 | fine-tuning |
 | ACQ | arXiv | 4 | 4 | 93.89 | 92.07 | |
 | ACQ | arXiv | 5 | 5 | 93.89 | 93.55 | |
 | ACQ | arXiv | 4 | 4 | 93.89 | 91.62 | ACQ + AIT |
@@ -82,11 +106,25 @@ There are two branches of data-free quantization methods: theoretical analysis a
 ## ResNet-20 (CIFAR-100 Classification)
 | Method | Venue | W-bit | A-bit | FP32 Baseline | Quantized | Notes |
 | - | - | -: | -: | -: | -: | - |
-| GDFQ | ECCV 2020 | 4 | 4 | 70.33 | 63.58 |  |
+| ZeroQ | CVPR 2020 | 3 | 3 | 70.33 | 15.38 | reported from *IntraQ* |
+| ZeroQ | CVPR 2020 | 4 | 4 | 70.33 | 58.42 | reported from *IntraQ* |
+| ZeroQ | CVPR 2020 | 4 | 4 | 70.33 | 47.45 | reported from *Qimera* |
+| ZeroQ | CVPR 2020 | 5 | 5 | 70.33 | 65.61 | reported from *Qimera* |
+| GDFQ | ECCV 2020 | 3 | 3 | 70.33 | 43.87 | reported from *IntraQ* |
+| GDFQ | ECCV 2020 | 4 | 4 | 70.33 | 63.39 | reported from *Qimera* |
+| GDFQ | ECCV 2020 | 4 | 4 | 70.33 | 63.58 | |
 | GDFQ | ECCV 2020 | 5 | 5 | 70.33 | 66.12 | reported from *Qimera* |
-| ZAQ | CVPR 2021 | 5 | 5 | 69.58 | 67.94 |  |
-| Qimera | NeurIPS 2021 | 4 | 4 | 70.33 | 65.10 |  |
-| Qimera | NeurIPS 2021 | 5 | 5 | 70.33 | 69.02 |  |
+| ZAQ | CVPR 2021 | 4 | 4 | 70.33 | 60.42 | reported from *Qimera* |
+| ZAQ | CVPR 2021 | 5 | 5 | 70.33 | 68.70 | reported from *Qimera* |
+| ZAQ | CVPR 2021 | 5 | 5 | 69.58 | 67.94 | |
+| Qimera | NeurIPS 2021 | 4 | 4 | 70.33 | 65.10 | |
+| Qimera | NeurIPS 2021 | 5 | 5 | 70.33 | 69.02 | |
+| Qimera | NeurIPS 2021 | 4 | 4 | 70.33 | 65.10 | GDFQ + Qimera |
+| Qimera | NeurIPS 2021 | 5 | 5 | 70.33 | 69.02 | GDFQ + Qimera |
+| Qimera | NeurIPS 2021 | 4 | 4 | 70.33 | 69.30 | ZAQ + Qimera |
+| Qimera | NeurIPS 2021 | 5 | 5 | 70.33 | 69.58 | ZAQ + Qimera |
+| Qimera | NeurIPS 2021 | 4 | 4 | 70.33 | 65.33 | AutoReCon + Qimera |
+| Qimera | NeurIPS 2021 | 5 | 5 | 70.33 | 68.80 | AutoReCon + Qimera |
 | AIT | CVPR 2022 | 4 | 4 | 70.33 | 65.80 | GDFQ + AIT |
 | AIT | CVPR 2022 | 5 | 5 | 70.33 | 69.26 | GDFQ + AIT |
 | AIT | CVPR 2022 | 4 | 4 | 70.33 | 65.40 | Qimera + AIT |
@@ -106,16 +144,41 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | ACIQ | NeurIPS 2019 | (MP) 4 | (MP) 4 | 69.7 | 67.0 | Per-channel Bit-allocation + Bias Correction + Per-channel ActQuant |
 | DFQ | ICCV 2019 | 8 | 8 | 69.7 | 69.7 | Cross Layer Equalization + Bias Correction + Bias Absorption |
 | DFQ | ICCV 2019 | 6 | 6 | 69.7 | 69.3 | Cross Layer Equalization + Bias Correction + Bias Absorption |
-| GDFQ | ECCV 2020 | 8 | 8 | 71.47 | 70.68 |  |
-| GDFQ | ECCV 2020 | 6 | 6 | 71.47 | 70.13 |  |
+| ZeroQ | CVPR 2020 | (MP) 4 | 4 | 71.47 | 69.05 | using quantile for weight quantization |
+| ZeroQ | CVPR 2020 | 4 | 4 | 71.47 | 19.09 | reported from *SQuant* |
+| ZeroQ | CVPR 2020 | (MP) 6 | 6 | 71.47 | 71.30 | |
+| ZeroQ | CVPR 2020 | 8 | 8 | 71.47 | 71.43 | |
+| ZeroQ | CVPR 2020 | (MP) 4 | 8 | 71.47 | 68.45 | |
+| ZeroQ | CVPR 2020 | 4 | 4 | 71.47 | 22.58 | reported from *Qimera* |
+| ZeroQ | CVPR 2020 | 5 | 5 | 71.47 | 59.26 | reported from *Qimera* |
+| ZeroQ | CVPR 2020 | 6 | 6 | 71.47 | 69.84 | reported from *SQuant* |
+| ZeroQ | CVPR 2020 | 4 | 4 | 71.47 | 60.68 | reported from *IntraQ* |
+| ZeroQ | CVPR 2020 | 5 | 5 | 71.47 | 69.65 | reported from *IntraQ* |
+| GDFQ | ECCV 2020 | 8 | 8 | 71.47 | 70.68 | |
+| GDFQ | ECCV 2020 | 6 | 6 | 71.47 | 70.13 | |
 | GDFQ | ECCV 2020 | 5 | 5 | 71.47 | 68.40 | reported from *Qimera* |
-| GDFQ | ECCV 2020 | 4 | 4 | 71.47 | 60.60 |  |
-| AutoReCon | IJCAI 2021 | 6 | 6 | 71.47 | 70.61 |  |
-| AutoReCon | IJCAI 2021 | 5 | 5 | 71.47 | 68.88 |  |
+| GDFQ | ECCV 2020 | 5 | 5 | 71.47 | 66.82 | reported from *IntraQ* |
+| GDFQ | ECCV 2020 | 4 | 4 | 71.47 | 60.60 | |
+| AutoReCon | IJCAI 2021 | 6 | 6 | 71.47 | 70.61 | |
+| AutoReCon | IJCAI 2021 | 5 | 5 | 71.47 | 68.88 | |
 | AutoReCon | IJCAI 2021 | 4 | 4 | 71.47 | 61.32 | 61.60 from paper Table.5 |
-| AutoReCon | IJCAI 2021 | 3 | 3 | 71.47 | 23.37 |  |
-| Qimera | NeurIPS 2021 | 5 | 5 | 71.47 | 69.29 |  |
-| Qimera | NeurIPS 2021 | 4 | 4 | 71.47 | 63.84 |  |
+| AutoReCon | IJCAI 2021 | 3 | 3 | 71.47 | 23.37 | |
+| DSG* | CVPR 2021 | 4 | 4 | 71.47 | 39.90 | DSG data for Vanilla PTQ (Min-Max) calibration |
+| DSG* | CVPR 2021 | 4 | 4 | 71.47 | 66.67 | DSG data for activation calibration + SQuant layer reconstruction |
+| DSG* | CVPR 2021 | 4 | 4 | 71.47 | 62.18 | DSG data for QAT |
+| DSG* | CVPR 2021 | 6 | 6 | 71.47 | 70.46 | DSG data for Vanilla PTQ (Min-Max) calibration |
+| DSG* | CVPR 2021 | 6 | 6 | 71.47 | 71.18 | DSG data for activation calibration + SQuant layer reconstruction |
+| DSG* | CVPR 2021 | 6 | 6 | 71.47 | 71.12 | DSG data for QAT |
+| DSG* | CVPR 2021 | 8 | 8 | 71.47 | 71.49 | DSG data for Vanilla PTQ (Min-Max) calibration |
+| DSG* | CVPR 2021 | 8 | 8 | 71.47 | 71.46 | DSG data for activation calibration + SQuant layer reconstruction |
+| DSG* | CVPR 2021 | 8 | 8 | 71.47 | 71.54 | DSG data for QAT |
+| DSG | CVPR 2021 | 4 | 4 | 71.47 | 60.12 | reported from *IntraQ* |
+| DSG | CVPR 2021 | 5 | 5 | 71.47 | 69.53 | reported from *IntraQ* |
+| ZAQ | CVPR 2021 | 4 | 4 | 71.47 | 52.64 | reported from *Qimera* |
+| ZAQ | CVPR 2021 | 5 | 5 | 71.47 | 64.54 | reported from *Qimera* |
+| MixMix | ICCV 2021 | 4 | 4 | 71.08 | 69.46 | MixMix + BRECQ |
+| Qimera | NeurIPS 2021 | 5 | 5 | 71.47 | 69.29 | |
+| Qimera | NeurIPS 2021 | 4 | 4 | 71.47 | 63.84 | |
 | SQuant | ICLR 2022 | 4 | 4 | 71.47 | 66.14 | Layer Reconstruction |
 | SQuant | ICLR 2022 | 6 | 6 | 71.47 | 70.74 | Layer Reconstruction |
 | SQuant | ICLR 2022 | 8 | 8 | 71.47 | 71.47 | Layer Reconstruction |
@@ -130,6 +193,8 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | AAC+ABN | arXiv | 4 | 4 | 71.47 | 64.33 | GDFQ + AAC+ABN |
 | AAC+ABN | arXiv | 4 | 4 | 71.47 | 63.72 | Qimera + AAC+ABN |
 | AAC+ABN | arXiv | 4 | 4 | 71.47 | 67.06 | IntraQ + AAC+ABN |
+| DDAQ | Neurocomputing 2022 | 4 | 4 | 71.47 | 58.44 | no fine-tuning |
+| DDAQ | Neurocomputing 2022 | 4 | 4 | 71.47 | 62.91 | fine-tuning |
 | ACQ | arXiv | 4 | 4 | 71.47 | 64.42 | |
 | ACQ | arXiv | 5 | 5 | 71.47 | 69.67 | |
 | ACQ | arXiv | 4 | 4 | 71.47 | 67.55 | ACQ + AIT |
@@ -141,16 +206,44 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | ACIQ | NeurIPS 2019 | (MP) 4 | (MP) 4 | 76.1 | 73.8 | Per-channel Bit-allocation + Bias Correction + Per-channel ActQuant |
 | OCS | ICML 2019 | 4 | 8 | 76.1 | 69.3 | OCS + Best Clip, expand ratio = 0.05 |
 | OCS | ICML 2019 | 4 | 8 | 76.1 | 75.7 | OCS + Best Clip, expand ratio = 0.01/0.02 |
-| GDFQ | ECCV 2020 | 6 | 6 | 77.72 | 76.59 |  |
-| GDFQ | ECCV 2020 | 4 | 4 | 77.72 | 55.65 | 55.94 |
-| AutoReCon | IJCAI 2021 | 6 | 6 | 77.72 | 76.76 |  |
-| AutoReCon | IJCAI 2021 | 5 | 5 | 77.72 | 74.13 |  |
+| ZeroQ | CVPR 2020 | (MP) 8 | 8 | 77.72 | 75.80 | |
+| ZeroQ | CVPR 2020 | (MP) 8 | 8 | 77.72 | 76.08 | using quantile for weight quantization |
+| ZeroQ | CVPR 2020 | (MP) 6 | 6 | 77.72 | 77.43 | |
+| ZeroQ | CVPR 2020 | (MP) 8 | 8 | 77.72 | 77.67 | |
+| ZeroQ | CVPR 2020 | 4 | 4 | 77.73 | 8.38 | reported from *Qimera* |
+| ZeroQ | CVPR 2020 | 4 | 4 | 77.73 | 7.75 | reported from *SQuant* |
+| ZeroQ | CVPR 2020 | 5 | 5 | 77.73 | 48.12 | reported from *Qimera* |
+| ZeroQ | CVPR 2020 | 6 | 6 | 77.74 | 72.93 | reported from *SQuant* |
+| ZeroQ | CVPR 2020 | 8 | 8 | 77.74 | 77.65 | reported from *SQuant* |
+| GDFQ | ECCV 2020 | 8 | 8 | 77.74 | 77.51 | reported from *SQuant* |
+| GDFQ | ECCV 2020 | 6 | 6 | 77.72 | 76.59 | |
+| GDFQ | ECCV 2020 | 5 | 5 | 77.73 | 52.12 | reported from *Qimera* |
+| GDFQ | ECCV 2020 | 4 | 4 | 77.73 | 71.89 | reported from *Qimera* |
+| GDFQ | ECCV 2020 | 4 | 4 | 77.72 | 55.65 | |
+| AutoReCon | IJCAI 2021 | 6 | 6 | 77.72 | 76.76 | |
+| AutoReCon | IJCAI 2021 | 5 | 5 | 77.72 | 74.13 | |
 | AutoReCon | IJCAI 2021 | 4 | 4 | 77.72 | 64.37 | 57.49 from paper Table.5 |
-| AutoReCon | IJCAI 2021 | 3 | 3 | 77.72 | 1.63 |  |
-| Qimera | NeurIPS 2021 | 4 | 4 | 77.73 | 66.25 |  |
-| Qimera | NeurIPS 2021 | 5 | 5 | 77.73 | 75.32 |  |
-| ZAQ | CVPR 2021 | 4 | 4 | 76.13 | 70.06 |  |
-| ZAQ | CVPR 2021 | 2 | 2 | 76.13 | 65.52 |  |
+| AutoReCon | IJCAI 2021 | 3 | 3 | 77.72 | 1.63 | |
+| MixMix | ICCV 2021 | 4 | 4 | 77.00 | 74.58 | MixMix + BRECQ |
+| MixMix | ICCV 2021 | 2 | 4 | 77.00 | 66.49 | MixMix + BRECQ |
+| MixMix | ICCV 2021 | 4 | 4 | 77.00 | 73.39 | MixMix + LSQ |
+| MixMix | ICCV 2021 | 2 | 4 | 77.00 | 64.60 | MixMix + LSQ |
+| Qimera | NeurIPS 2021 | 4 | 4 | 77.73 | 66.25 | |
+| Qimera | NeurIPS 2021 | 5 | 5 | 77.73 | 75.32 | |
+| Qimera | NeurIPS 2021 | 6 | 6 | 77.73 | 77.18 | |
+| DSG* | CVPR 2021 | 4 | 4 | 77.72 | 56.12 | DSG data for Vanilla PTQ (Min-Max) calibration |
+| DSG* | CVPR 2021 | 4 | 4 | 77.72 | 68.30 | DSG data for activation calibration + SQuant layer reconstruction |
+| DSG* | CVPR 2021 | 4 | 4 | 77.72 | 71.96 | DSG data for QAT |
+| DSG* | CVPR 2021 | 6 | 6 | 77.72 | 76.90 | DSG data for Vanilla PTQ (Min-Max) calibration |
+| DSG* | CVPR 2021 | 6 | 6 | 77.72 | 77.72 | DSG data for activation calibration + SQuant layer reconstruction |
+| DSG* | CVPR 2021 | 6 | 6 | 77.72 | 77.25 | DSG data for QAT |
+| DSG* | CVPR 2021 | 8 | 8 | 77.72 | 77.72 | DSG data for Vanilla PTQ (Min-Max) calibration |
+| DSG* | CVPR 2021 | 8 | 8 | 77.72 | 77.83 | DSG data for activation calibration + SQuant layer reconstruction |
+| DSG* | CVPR 2021 | 8 | 8 | 77.72 | 77.64 | DSG data for QAT |
+| ZAQ | CVPR 2021 | 4 | 4 | 76.13 | 70.06 | |
+| ZAQ | CVPR 2021 | 2 | 2 | 76.13 | 65.52 | |
+| ZAQ | CVPR 2021 | 4 | 4 | 77.73 | 53.02 | reported from *Qimera* |
+| ZAQ | CVPR 2021 | 5 | 5 | 77.73 | 73.38 | reported from *Qimera* |
 | SQuant | ICLR 2022 | 4 | 4 | 77.74 | 70.80 | Layer Reconstruction |
 | SQuant | ICLR 2022 | 6 | 6 | 77.74 | 77.05 | Layer Reconstruction |
 | SQuant | ICLR 2022 | 8 | 8 | 77.74 | 77.71 | Layer Reconstruction |
@@ -160,6 +253,8 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | AIT | CVPR 2022 | 5 | 5 | 77.73 | 75.54 | Qimera + AIT |
 | AIT | CVPR 2022 | 4 | 4 | 77.73 | 68.27 | ARC + AIT |
 | AIT | CVPR 2022 | 5 | 5 | 77.73 | 76.00 | ARC + AIT |
+| DDAQ | Neurocomputing 2022 | 6 | 6 | 77.72 | 76.58 | no fine-tuning |
+| DDAQ | Neurocomputing 2022 | 6 | 6 | 77.72 | 76.98 | fine-tuning |
 | ACQ | arXiv | 4 | 4 | 77.73 | 69.16 | |
 | ACQ | arXiv | 5 | 5 | 77.73 | 76.18 | |
 | ACQ | arXiv | 4 | 4 | 77.73 | 72.23 | ACQ + AIT |
@@ -173,6 +268,13 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | - | - | -: | -: | -: | -: | - |
 | ACIQ | NeurIPS 2019 | (MP) 4 | (MP) 4 | 77.3 | 75.0 | Per-channel Bit-allocation + Bias Correction + Per-channel ActQuant |
 
+## ResNet-152 (ImageNet Classification)
+| Method | Venue | W-bit | A-bit | FP32 Baseline | Quantized | Notes |
+| - | - | -: | -: | -: | -: | - |
+| ZeroQ | CVPR 2020 | (MP) 8 | 8 | 80.08 | 78.00 | |
+| ZeroQ | CVPR 2020 | (MP) 6 | 6 | 80.08 | 77.88 | |
+| ZeroQ | CVPR 2020 | 8 | 8 | 80.08 | 78.94 | |
+
 ## MobileNet-V1 (ImageNet Classification)
 | Method | Venue | W-bit | A-bit | FP32 Baseline | Quantized | Notes |
 | - | - | -: | -: | -: | -: | - |
@@ -184,16 +286,34 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | Method | Venue | W-bit | A-bit | FP32 Baseline | Quantized | Notes |
 | - | - | -: | -: | -: | -: | - |
 | DFQ | ICCV 2019 | 8 | 8 | 71.7 | 71.2 | Cross Layer Equalization + Bias Correction + Bias Absorption |
-| GDFQ | ECCV 2020 | 8 | 8 | 73.03 | 72.80 |  |
-| GDFQ | ECCV 2020 | 6 | 6 | 73.03 | 70.98 |  |
-| GDFQ | ECCV 2020 | 4 | 4 | 73.03 | 51.30 |  |
-| AutoReCon | IJCAI 2021 | 6 | 6 | 73.03 | 71.53 |  |
-| AutoReCon | IJCAI 2021 | 5 | 5 | 73.03 | 68.40 |  |
+| ZeroQ | CVPR 2020 | (MP) 8 | 8 | 73.03 | 68.83 | |
+| ZeroQ | CVPR 2020 | (MP) 8 | 8 | 73.03 | 69.44 | using quantile for weight quantization |
+| ZeroQ | CVPR 2020 | (MP) 6 | 6 | 73.03 | 72.85 | |
+| ZeroQ | CVPR 2020 | 8 | 8 | 73.03 | 72.91 | |
+| ZeroQ | CVPR 2020 | 4 | 4 | 73.03 | 10.96 | reported from *Qimera* |
+| ZeroQ | CVPR 2020 | 5 | 5 | 73.03 | 59.88 | reported from *Qimera* |
+| ZeroQ | CVPR 2020 | 4 | 4 | 73.03 | 59.39 | reported from *IntraQ* |
+| ZeroQ | CVPR 2020 | 5 | 5 | 73.03 | 70.88 | reported from *IntraQ* |
+| GDFQ | ECCV 2020 | 8 | 8 | 73.03 | 72.80 | |
+| GDFQ | ECCV 2020 | 6 | 6 | 73.03 | 70.98 | |
+| GDFQ | ECCV 2020 | 5 | 5 | 73.03 | 68.11 | reported from *Qimera* |
+| GDFQ | ECCV 2020 | 4 | 4 | 73.03 | 59.43 | reported from *Qimera* |
+| GDFQ | ECCV 2020 | 5 | 5 | 73.03 | 68.14 | reported from *IntraQ* |
+| GDFQ | ECCV 2020 | 4 | 4 | 73.03 | 51.30 | |
+| AutoReCon | IJCAI 2021 | 6 | 6 | 73.03 | 71.53 | |
+| AutoReCon | IJCAI 2021 | 5 | 5 | 73.03 | 68.40 | |
 | AutoReCon | IJCAI 2021 | 4 | 4 | 73.03 | 60.13 | 59.80 from paper Table.5 |
-| AutoReCon | IJCAI 2021 | 3 | 3 | 73.03 | 14.30 |  |
-| Qimera | NeurIPS 2021 | 4 | 4 | 73.03 | 61.62 |  |
-| Qimera | NeurIPS 2021 | 5 | 5 | 73.03 | 70.45 |  |
-| ZAQ | CVPR 2021 | 8 | 8 | 71.88 | 71.43 |  |
+| AutoReCon | IJCAI 2021 | 3 | 3 | 73.03 | 14.30 | |
+| MixMix | ICCV 2021 | 4 | 4 | 72.49 | 64.01 | MixMix + BRECQ |
+| MixMix | ICCV 2021 | 4 | 4 | 72.49 | 67.74 | MixMix + LSQ |
+| Qimera | NeurIPS 2021 | 4 | 4 | 73.03 | 61.62 | |
+| Qimera | NeurIPS 2021 | 5 | 5 | 73.03 | 70.45 | |
+| DSG* | CVPR 2021 | 4 | 4 | 73.03 | 60.46 | DSG data for QAT |
+| DSG* | CVPR 2021 | 6 | 6 | 73.03 | 71.48 | DSG data for QAT |
+| DSG* | CVPR 2021 | 8 | 8 | 73.03 | 72.90 | DSG data for QAT |
+| ZAQ | CVPR 2021 | 8 | 8 | 71.88 | 71.43 | |
+| ZAQ | CVPR 2021 | 5 | 5 | 73.03 | 62.35 | reported from *Qimera* |
+| ZAQ | CVPR 2021 | 4 | 4 | 73.03 | 0.10 | reported from *Qimera* |
 | AIT | CVPR 2022 | 4 | 4 | 73.03 | 65.39 | GDFQ + AIT |
 | AIT | CVPR 2022 | 5 | 5 | 73.03 | 71.70 | GDFQ + AIT |
 | AIT | CVPR 2022 | 4 | 4 | 73.03 | 66.81 | Qimera + AIT |
@@ -203,6 +323,8 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | IntraQ | CVPR 2022 | 4 | 4 | 73.03 | 65.10 | |
 | IntraQ | CVPR 2022 | 5 | 5 | 73.03 | 71.28 | |
 | ClusterQ | arXiv | 4 | 4 | 73.084 | 63.328 | |
+| DDAQ | Neurocomputing 2022 | 4 | 4 | 73.03 | 49.59 | no fine-tuning |
+| DDAQ | Neurocomputing 2022 | 4 | 4 | 73.03 | 52.99 | fine-tuning |
 | ACQ | arXiv | 4 | 4 | 73.03 | 61.54 | |
 | ACQ | arXiv | 5 | 5 | 73.03 | 69.52 | |
 | ACQ | arXiv | 4 | 4 | 73.03 | 66.81 | ACQ + AIT |
@@ -219,7 +341,7 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | ACIQ | NeurIPS 2019 | (MP) 4 | (MP) 4 | 73.4 | 71.8 | Per-channel Bit-allocation + Bias Correction + Per-channel ActQuant |
 | OCS | ICML 2019 | 4 | 8 | 73.4 | 65.9 | OCS + Best Clip, expand ratio = 0.05 |
 | OCS | ICML 2019 | 8 | 8 | 73.4 | 72.8 | OCS + Best Clip, expand ratio = 0.02 |
-| GDFQ | ECCV 2020 | 4 | 4 | 74.28 | 67.10 |  |
+| GDFQ | ECCV 2020 | 4 | 4 | 74.28 | 67.10 | |
 
 ## Inception-V3 (ImageNet Classification)
 | Method | Venue | W-bit | A-bit | FP32 Baseline | Quantized | Notes |
@@ -227,7 +349,24 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | ACIQ | NeurIPS 2019 | (MP) 4 | (MP) 4 | 77.2 | 66.4 | Per-channel Bit-allocation + Bias Correction + Per-channel ActQuant |
 | OCS | ICML 2019 | 4 | 8 | 75.9 | 4.8 | OCS + Best Clip, expand ratio = 0.05 |
 | OCS | ICML 2019 | 8 | 8 | 75.9 | 75.0 | OCS + Best Clip, expand ratio = 0.02 |
-| GDFQ | ECCV 2020 | 4 | 4 | 78.80 | 70.39 |  |
+| ZeroQ | CVPR 2020 | 4 | 4 | 78.81 | 18.20 | reported from *SQuant* |
+| ZeroQ | CVPR 2020 | 6 | 6 | 78.81 | 74.94 | reported from *SQuant* |
+| ZeroQ | CVPR 2020 | (MP) 8 | 8 | 78.88 | 77.57 | |
+| ZeroQ | CVPR 2020 | (MP) 6 | 6 | 78.88 | 78.76 | |
+| ZeroQ | CVPR 2020 | 8 | 8 | 78.88 | 78.81 | |
+| GDFQ | ECCV 2020 | 4 | 4 | 78.80 | 70.39 | |
+| GDFQ | ECCV 2020 | 6 | 6 | 78.81 | 78.30 | reported from *SQuant* |
+| GDFQ | ECCV 2020 | 8 | 8 | 78.81 | 78.79 | reported from *SQuant* |
+| DSG* | CVPR 2021 | 4 | 4 | 78.80 | 57.17 | DSG data for Vanilla PTQ (Min-Max) calibration |
+| DSG* | CVPR 2021 | 4 | 4 | 78.80 | 74.02 | DSG data for activation calibration + SQuant layer reconstruction |
+| DSG* | CVPR 2021 | 4 | 4 | 78.80 | 72.01 | DSG data for QAT |
+| DSG* | CVPR 2021 | 6 | 6 | 78.80 | 78.12 | DSG data for Vanilla PTQ (Min-Max) calibration |
+| DSG* | CVPR 2021 | 6 | 6 | 78.80 | 78.59 | DSG data for activation calibration + SQuant layer reconstruction |
+| DSG* | CVPR 2021 | 6 | 6 | 78.80 | 78.60 | DSG data for QAT |
+| DSG* | CVPR 2021 | 8 | 8 | 78.80 | 78.81 | DSG data for Vanilla PTQ (Min-Max) calibration |
+| DSG* | CVPR 2021 | 8 | 8 | 78.80 | 78.85 | DSG data for activation calibration + SQuant layer reconstruction |
+| DSG* | CVPR 2021 | 8 | 8 | 78.80 | 78.94 | DSG data for QAT |
+| Qimera | NeurIPS 2021 | 4 | 4 | 78.80 | 73.31 | |
 | SQuant | ICLR 2022 | 4 | 4 | 78.81 | 73.26 | Layer Reconstruction |
 | SQuant | ICLR 2022 | 6 | 6 | 78.81 | 78.30 | Layer Reconstruction |
 | SQuant | ICLR 2022 | 8 | 8 | 78.81 | 78.79 | Layer Reconstruction |
@@ -235,6 +374,21 @@ There are two branches of data-free quantization methods: theoretical analysis a
 ## SqueezeNet (ImageNet Classification)
 | Method | Venue | W-bit | A-bit | FP32 Baseline | Quantized | Notes |
 | - | - | -: | -: | -: | -: | - |
+| ZeroQ | CVPR 2020 | (MP) 8 | 8 | 69.38 | 59.23 | |
+| ZeroQ | CVPR 2020 | (MP) 6 | 6 | 69.38 | 68.17 | |
+| ZeroQ | CVPR 2020 | 8 | 8 | 69.38 | 69.17 | |
+| ZeroQ | CVPR 2020 | (MP) 4 | 8 | 69.38 | 59.23 | |
+| ZeroQ | CVPR 2020 | 4 | 4 | 69.38 | 0.09 | reported from *SQuant* |
+| ZeroQ | CVPR 2020 | 6 | 6 | 69.38 | 16.54 | reported from *SQuant* |
+| ZeroQ | CVPR 2020 | 8 | 8 | 69.38 | 68.18 | reported from *SQuant* |
+| GDFQ | ECCV 2020 | 4 | 4 | 69.38 | 28.93 | reported from *SQuant* |
+| GDFQ | ECCV 2020 | 6 | 6 | 69.38 | 65.46 | reported from *SQuant* |
+| GDFQ | ECCV 2020 | 8 | 8 | 69.38 | 68.22 | reported from *SQuant* |
+| DSG* | CVPR 2021 | 6 | 6 | 69.38 | 66.23 | DSG data for Vanilla PTQ (Min-Max) calibration |
+| DSG* | CVPR 2021 | 6 | 6 | 69.38 | 68.05 | DSG data for activation calibration + SQuant layer reconstruction |
+| DSG* | CVPR 2021 | 8 | 8 | 69.38 | 69.27 | DSG data for Vanilla PTQ (Min-Max) calibration |
+| DSG* | CVPR 2021 | 8 | 8 | 69.38 | 69.37 | DSG data for activation calibration + SQuant layer reconstruction |
+| Qimera | NeurIPS 2021 | 6 | 6 | 69.38 | 65.97 | |
 | SQuant | ICLR 2022 | 4 | 4 | 69.38 | 43.45 | Layer Reconstruction |
 | SQuant | ICLR 2022 | 6 | 6 | 69.38 | 67.34 | Layer Reconstruction |
 | SQuant | ICLR 2022 | 8 | 8 | 69.38 | 69.22 | Layer Reconstruction |
@@ -242,8 +396,23 @@ There are two branches of data-free quantization methods: theoretical analysis a
 ## ShuffleNet (ImageNet Classification)
 | Method | Venue | W-bit | A-bit | FP32 Baseline | Quantized | Notes |
 | - | - | -: | -: | -: | -: | - |
-| GDFQ | ECCV 2020 | 6 | 6 | 65.07 | 60.12 |  |
-| GDFQ | ECCV 2020 | 4 | 4 | 65.07 | 21.78 |  |
+| ZeroQ | CVPR 2020 | (MP) 8 | 8 | 65.07 | 58.96 | |
+| ZeroQ | CVPR 2020 | (MP) 6 | 6 | 65.07 | 62.90 | |
+| ZeroQ | CVPR 2020 | 8 | 8 | 65.07 | 64.94 | |
+| ZeroQ | CVPR 2020 | (MP) 4 | 8 | 65.07 | 57.50 | |
+| ZeroQ | CVPR 2020 | 8 | 8 | 65.07 | 64.34 | reported from *SQuant* |
+| ZeroQ | CVPR 2020 | 6 | 6 | 65.07 | 35.21 | reported from *SQuant* |
+| GDFQ | ECCV 2020 | 8 | 8 | 65.07 | 64.03 | reported from *SQuant* |
+| GDFQ | ECCV 2020 | 6 | 6 | 65.07 | 60.12 | |
+| GDFQ | ECCV 2020 | 4 | 4 | 65.07 | 21.78 | |
+| DSG* | CVPR 2021 | 4 | 4 | 65.07 | 29.71 | DSG data for QAT |
+| DSG* | CVPR 2021 | 6 | 6 | 65.07 | 60.71 | DSG data for Vanilla PTQ (Min-Max) calibration |
+| DSG* | CVPR 2021 | 6 | 6 | 65.07 | 61.94 | DSG data for activation calibration + SQuant layer reconstruction |
+| DSG* | CVPR 2021 | 6 | 6 | 65.07 | 61.37 | DSG data for QAT |
+| DSG* | CVPR 2021 | 8 | 8 | 65.07 | 64.87 | DSG data for Vanilla PTQ (Min-Max) calibration |
+| DSG* | CVPR 2021 | 8 | 8 | 65.07 | 64.97 | DSG data for activation calibration + SQuant layer reconstruction |
+| DSG* | CVPR 2021 | 8 | 8 | 65.07 | 64.76 | DSG data for QAT |
+| Qimera | NeurIPS 2021 | 6 | 6 | 65.07 | 56.16 | |
 | SQuant | ICLR 2022 | 4 | 4 | 65.07 | 16.34 | Layer Reconstruction |
 | SQuant | ICLR 2022 | 6 | 6 | 65.07 | 60.25 | Layer Reconstruction |
 | SQuant | ICLR 2022 | 8 | 8 | 65.07 | 64.68 | Layer Reconstruction |
@@ -256,5 +425,3 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | PowerQuant | ICLR 2023 | 4 | 4 | 75.00 | 68.04 | Non-Uniform |
 | PowerQuant | ICLR 2023 | 6 | 6 | 75.00 | 74.84 | Non-Uniform |
 | PowerQuant | ICLR 2023 | 8 | 8 | 75.00 | 75.00 | Non-Uniform |
-
-
