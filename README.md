@@ -29,7 +29,7 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | Layer-Wise Data-Free CNN Compression | | arXiv | [arXiv:2011.09058](https://arxiv.org/pdf/2011.09058.pdf) | | Estimated Data + Knowledge Distillation |
 | Learning in School: Multi-teacher Knowledge Inversion for Data-Free Quantization | LIS | arXiv | arXiv:2011.09899 (unavailable) | | Data Distillation |
 | MixMix: All You Need for Data-Free Compression Are Feature and Data Mixing | MixMix | ICCV 2021 | [arXiv:2011.09899](https://arxiv.org/pdf/2011.09899.pdf) | | Data Distillation |
-| Hybrid and Non-Uniform Quantization methods using retro synthesis data for efficient inference | IJCNN 2021 | [arXiv:2012.13716](https://arxiv.org/pdf/2012.13716.pdf) | | Data Distillation |
+| Hybrid and Non-Uniform Quantization methods using retro synthesis data for efficient inference | | IJCNN 2021 | [arXiv:2012.13716](https://arxiv.org/pdf/2012.13716.pdf) | | Data Distillation |
 | Generative Zero-shot Network Quantization | GZNQ ? | CVPR Workshops 2021 | [arXiv:2101.08340](https://arxiv.org/pdf/2101.08430.pdf) | | Data Distillation |
 | Diversifying Sample Generation for Accurate Data-Free Quantization | DSG | CVPR 2021 | [arXiv:2103.01049](https://arxiv.org/pdf/2103.01049.pdf) | | Data Distillation |
 | Zero-shot Adversarial Quantization | ZAQ | CVPR 2021 | [arXiv:2103.15263](https://arxiv.org/pdf/2103.15263.pdf) | [GitHub](https://github.com/FLHonker/ZAQ-code) | Adversarial |
@@ -48,7 +48,7 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | REx: Data-Free Residual Quantization Error Expansion | REx | arXiv | [arXiv:2203.14645](https://arxiv.org/pdf/2203.14645.pdf) | | |
 | It’s All In the Teacher: Zero-Shot Quantization Brought Closer to the Teacher | AIT | CVPR 2022 | [arXiv:2203.17008](https://arxiv.org/pdf/2203.17008.pdf) | [GitHub](https://github.com/iamkanghyunchoi/ait) | Adversarial |
 | Data-Free Quantization with Accurate Activation Clipping and Adaptive Batch Normalization | AAC+ABN ? | arXiv | [arXiv:2204.04215](https://arxiv.org/pdf/2204.04215.pdf) | | Adversarial |
-| Towards Feature Distribution Alignment and Diversity Enhancement for Data-Free Quantization | ClusterQ | arXiv | [arXiv:2205.00179](https://arxiv.org/pdf/2205.00179.pdf) | | Adversarial |
+| Towards Feature Distribution Alignment and Diversity Enhancement for Data-Free Quantization | ClusterQ | ICDM 2022 | [arXiv:2205.00179](https://arxiv.org/pdf/2205.00179.pdf) | | Adversarial |
 | ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers | ZeroQuant | NeurIPS 2022 | [arXiv:2206.01861](https://arxiv.org/pdf/2206.01861.pdf) | | |
 | PSAQ-ViT V2: Towards Accurate and General Data-Free Quantization for Vision Transformers | PSAQ-ViT V2 | arXiv | [arXiv:2209.05687](https://arxiv.org/pdf/2209.05687.pdf) | [GitHub](https://github.com/zkkli/PSAQ-ViT) | Data Distillation + Adversarial |
 | Dual-discriminator adversarial framework for data-free quantization | DDAQ | Neurocomputing 2022 Volume 511 | [ScienceDirect](https://doi.org/10.1016/j.neucom.2022.09.076) | | Adversarial |
