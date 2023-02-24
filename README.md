@@ -32,6 +32,7 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | Hybrid and Non-Uniform Quantization methods using retro synthesis data for efficient inference | | IJCNN 2021 | [arXiv:2012.13716](https://arxiv.org/pdf/2012.13716.pdf) | | Data Distillation |
 | Generative Zero-shot Network Quantization | GZNQ ? | CVPR Workshops 2021 | [arXiv:2101.08340](https://arxiv.org/pdf/2101.08430.pdf) | | Data Distillation |
 | Diversifying Sample Generation for Accurate Data-Free Quantization | DSG | CVPR 2021 | [arXiv:2103.01049](https://arxiv.org/pdf/2103.01049.pdf) | | Data Distillation |
+| Data-free mixed-precision quantization using novel sensitivity metric | | ICIP 2021 | [arXiv:2103.10051](https://arxiv.org/pdf/2103.10051.pdf) | | Data Distillation |
 | Zero-shot Adversarial Quantization | ZAQ | CVPR 2021 | [arXiv:2103.15263](https://arxiv.org/pdf/2103.15263.pdf) | [GitHub](https://github.com/FLHonker/ZAQ-code) | Adversarial |
 | Integer-Only Zero-Shot Quantization for Efficient Speech Recognition | | ICASSP 2022 | [arXiv:2103.16827](https://arxiv.org/pdf/2103.16827.pdf) | | Data Distillation |
 | Is In-Domain Data Really Needed? A Pilot Study on Cross-Domain Calibration for Network Quantization | | CVPR Workshops 2021 | [arXiv:2105.07331](https://arxiv.org/pdf/2105.07331.pdf) | | |
@@ -51,10 +52,11 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | Towards Feature Distribution Alignment and Diversity Enhancement for Data-Free Quantization | ClusterQ | ICDM 2022 | [arXiv:2205.00179](https://arxiv.org/pdf/2205.00179.pdf) | | Adversarial |
 | ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers | ZeroQuant | NeurIPS 2022 | [arXiv:2206.01861](https://arxiv.org/pdf/2206.01861.pdf) | | |
 | PSAQ-ViT V2: Towards Accurate and General Data-Free Quantization for Vision Transformers | PSAQ-ViT V2 | arXiv | [arXiv:2209.05687](https://arxiv.org/pdf/2209.05687.pdf) | [GitHub](https://github.com/zkkli/PSAQ-ViT) | Data Distillation + Adversarial |
+| Zero-Shot Learning of a Conditional Generative Adversarial Network for Data-Free Network Quantization | | ICIP 2021 | [arXiv:2210.14392](https://arxiv.org/pdf/2210.14392.pdf) | | Adversarial |
 | Dual-discriminator adversarial framework for data-free quantization | DDAQ | Neurocomputing 2022 Volume 511 | [ScienceDirect](https://doi.org/10.1016/j.neucom.2022.09.076) | | Adversarial |
 | ACQ: Improving Generative Data-free Quantization Via Attention Correction | ACQ | arXiv | [arXiv:2301.07266](https://arxiv.org/pdf/2301.07266.pdf) | | Adversarial |
 | PowerQuant: Automorphism Search for Non-Uniform Quantization | PowerQuant | ICLR 2023 | [arXiv:2301.09858](https://arxiv.org/pdf/2301.09858.pdf) | | |
-| Rethinking Data-Free Quantization as a Zero-Sum Game | AdaSG | AAAI 2023 | unavailable | [GitHub](https://github.com/hfutqian/AdaSG) | Adversarial |
+| Rethinking Data-Free Quantization as a Zero-Sum Game | AdaSG | AAAI 2023 | [arXiv:2302.09572](https://arxiv.org/pdf/2302.09572.pdf) | [GitHub](https://github.com/hfutqian/AdaSG) | Adversarial |
 
 # Baselines
 - If not mentioned, the result is cited from the original paper.
