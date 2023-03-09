@@ -53,6 +53,7 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers | ZeroQuant | NeurIPS 2022 | [arXiv:2206.01861](https://arxiv.org/pdf/2206.01861.pdf) | | |
 | PSAQ-ViT V2: Towards Accurate and General Data-Free Quantization for Vision Transformers | PSAQ-ViT V2 | arXiv | [arXiv:2209.05687](https://arxiv.org/pdf/2209.05687.pdf) | [GitHub](https://github.com/zkkli/PSAQ-ViT) | Data Distillation + Adversarial |
 | Zero-Shot Learning of a Conditional Generative Adversarial Network for Data-Free Network Quantization | | ICIP 2021 | [arXiv:2210.14392](https://arxiv.org/pdf/2210.14392.pdf) | | Adversarial |
+| Long-Range Zero-Shot Generative Deep Network Quantization | LRQ | arXiv | [arXiv:2211.06816](https://arxiv.org/pdf/2211.06816.pdf) | | Adversarial |
 | Dual-discriminator adversarial framework for data-free quantization | DDAQ | Neurocomputing 2022 Volume 511 | [ScienceDirect](https://doi.org/10.1016/j.neucom.2022.09.076) | | Adversarial |
 | ACQ: Improving Generative Data-free Quantization Via Attention Correction | ACQ | arXiv | [arXiv:2301.07266](https://arxiv.org/pdf/2301.07266.pdf) | | Adversarial |
 | PowerQuant: Automorphism Search for Non-Uniform Quantization | PowerQuant | ICLR 2023 | [arXiv:2301.09858](https://arxiv.org/pdf/2301.09858.pdf) | | |
@@ -98,12 +99,17 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | AIT | CVPR 2022 | 5 | 5 | 93.89 | 92.89 | ARC + AIT |
 | IntraQ | CVPR 2022 | 4 | 4 | 94.03 | 91.49 | |
 | IntraQ | CVPR 2022 | 3 | 3 | 94.03 | 77.07 | |
+| LRQ | arXiv | 4 | 4 | 94.03 | 91.55 | |
+| LRQ | arXiv | 3 | 3 | 94.03 | 83.28 | |
 | DDAQ | Neurocomputing 2022 | 4 | 4 | 94.03 | 92.41 | no fine-tuning |
 | DDAQ | Neurocomputing 2022 | 4 | 4 | 94.03 | 90.70 | fine-tuning |
 | ACQ | arXiv | 4 | 4 | 93.89 | 92.07 | |
 | ACQ | arXiv | 5 | 5 | 93.89 | 93.55 | |
 | ACQ | arXiv | 4 | 4 | 93.89 | 91.62 | ACQ + AIT |
 | ACQ | arXiv | 5 | 5 | 93.89 | 93.44 | ACQ + AIT |
+| AdaSG | AAAI 2023 | 3 | 3 | 93.89 | 84.14 | |
+| AdaSG | AAAI 2023 | 4 | 4 | 93.89 | 92.10 | |
+| AdaSG | AAAI 2023 | 5 | 5 | 93.89 | 93.76 | |
 
 ## ResNet-20 (CIFAR-100 Classification)
 | Method | Venue | W-bit | A-bit | FP32 Baseline | Quantized | Notes |
@@ -135,10 +141,15 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | AIT | CVPR 2022 | 5 | 5 | 70.33 | 68.40 | ARC + AIT |
 | IntraQ | CVPR 2022 | 4 | 4 | 70.33 | 64.98 | |
 | IntraQ | CVPR 2022 | 3 | 3 | 70.33 | 48.25 | |
+| LRQ | arXiv | 4 | 4 | 70.33 | 65.67 | |
+| LRQ | arXiv | 3 | 3 | 70.33 | 48.47 | |
 | ACQ | arXiv | 4 | 4 | 70.33 | 65.61 | |
 | ACQ | arXiv | 5 | 5 | 70.33 | 68.76 | |
 | ACQ | arXiv | 4 | 4 | 70.33 | 65.93 | ACQ + AIT |
 | ACQ | arXiv | 5 | 5 | 70.33 | 68.91 | ACQ + AIT |
+| AdaSG | AAAI 2023 | 3 | 3 | 70.33 | 52.76 | |
+| AdaSG | AAAI 2023 | 4 | 4 | 70.33 | 66.42 | |
+| AdaSG | AAAI 2023 | 5 | 5 | 70.33 | 69.42 | |
 
 ## ResNet-18 (ImageNet Classification)
 | Method | Venue | W-bit | A-bit | FP32 Baseline | Quantized | Notes |
@@ -197,10 +208,15 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | AAC+ABN | arXiv | 4 | 4 | 71.47 | 67.06 | IntraQ + AAC+ABN |
 | DDAQ | Neurocomputing 2022 | 4 | 4 | 71.47 | 58.44 | no fine-tuning |
 | DDAQ | Neurocomputing 2022 | 4 | 4 | 71.47 | 62.91 | fine-tuning |
+| LRQ | arXiv | 4 | 4 | 71.47 | 67.19 | |
+| LRQ | arXiv | 5 | 5 | 71.47 | 70.07 | |
 | ACQ | arXiv | 4 | 4 | 71.47 | 64.42 | |
 | ACQ | arXiv | 5 | 5 | 71.47 | 69.67 | |
 | ACQ | arXiv | 4 | 4 | 71.47 | 67.55 | ACQ + AIT |
 | ACQ | arXiv | 5 | 5 | 71.47 | 70.66 | ACQ + AIT |
+| AdaSG | AAAI 2023 | 3 | 3 | 71.47 | 37.04 | |
+| AdaSG | AAAI 2023 | 4 | 4 | 71.47 | 66.50 | |
+| AdaSG | AAAI 2023 | 5 | 5 | 71.47 | 70.29 | |
 
 ## ResNet-50 (ImageNet Classification)
 | Method | Venue | W-bit | A-bit | FP32 Baseline | Quantized | Notes |
@@ -264,6 +280,9 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | PowerQuant | ICLR 2023 | 4 | 4 | 76.15 | 70.53 | Non-Uniform |
 | PowerQuant | ICLR 2023 | 6 | 6 | 76.15 | 75.95 | Non-Uniform |
 | PowerQuant | ICLR 2023 | 8 | 8 | 76.15 | 76.15 | Non-Uniform |
+| AdaSG | AAAI 2023 | 3 | 3 | 77.73 | 16.98 | |
+| AdaSG | AAAI 2023 | 4 | 4 | 77.73 | 68.58 | |
+| AdaSG | AAAI 2023 | 5 | 5 | 77.73 | 76.03 | |
 
 ## ResNet-101 (ImageNet Classification)
 | Method | Venue | W-bit | A-bit | FP32 Baseline | Quantized | Notes |
@@ -283,6 +302,8 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | DFQ | ICCV 2019 | 8 | 8 | 70.8 | 70.5 | Cross Layer Equalization + Bias Correction + Bias Absorption |
 | IntraQ | CVPR 2022 | 4 | 4 | 73.39 | 51.36 | |
 | IntraQ | CVPR 2022 | 5 | 5 | 73.39 | 68.17 | |
+| LRQ | arXiv | 4 | 4 | 56.87 | |
+| LRQ | arXiv | 5 | 5 | 68.60 | |
 
 ## MobileNet-V2 (ImageNet Classification)
 | Method | Venue | W-bit | A-bit | FP32 Baseline | Quantized | Notes |
@@ -325,12 +346,18 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | IntraQ | CVPR 2022 | 4 | 4 | 73.03 | 65.10 | |
 | IntraQ | CVPR 2022 | 5 | 5 | 73.03 | 71.28 | |
 | ClusterQ | arXiv | 4 | 4 | 73.084 | 63.328 | |
+| LRQ | arXiv | 4 | 4 | 73.03 | 65.62 | |
+| LRQ | arXiv | 5 | 5 | 73.03 | 71.37 | |
 | DDAQ | Neurocomputing 2022 | 4 | 4 | 73.03 | 49.59 | no fine-tuning |
 | DDAQ | Neurocomputing 2022 | 4 | 4 | 73.03 | 52.99 | fine-tuning |
 | ACQ | arXiv | 4 | 4 | 73.03 | 61.54 | |
 | ACQ | arXiv | 5 | 5 | 73.03 | 69.52 | |
 | ACQ | arXiv | 4 | 4 | 73.03 | 66.81 | ACQ + AIT |
 | ACQ | arXiv | 5 | 5 | 73.03 | 71.98 | ACQ + AIT |
+| AdaSG | AAAI 2023 | 3 | 3 | 73.03 | 26.90 | |
+| AdaSG | AAAI 2023 | 4 | 4 | 73.03 | 65.15 | |
+| AdaSG | AAAI 2023 | 5 | 5 | 73.03 | 71.61 | |
+
 
 ## VGG16 (ImageNet Classification)
 | Method | Venue | W-bit | A-bit | FP32 Baseline | Quantized | Notes |
