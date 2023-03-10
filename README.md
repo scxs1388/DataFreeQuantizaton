@@ -235,8 +235,8 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | ZeroQ | CVPR 2020 | 8 | 8 | 77.74 | 77.65 | reported from *SQuant* |
 | GDFQ | ECCV 2020 | 8 | 8 | 77.74 | 77.51 | reported from *SQuant* |
 | GDFQ | ECCV 2020 | 6 | 6 | 77.72 | 76.59 | |
-| GDFQ | ECCV 2020 | 5 | 5 | 77.73 | 52.12 | reported from *Qimera* |
-| GDFQ | ECCV 2020 | 4 | 4 | 77.73 | 71.89 | reported from *Qimera* |
+| GDFQ | ECCV 2020 | 5 | 5 | 77.73 | 71.89 | reported from *Qimera* |
+| GDFQ | ECCV 2020 | 4 | 4 | 77.73 | 52.12 | reported from *Qimera* |
 | GDFQ | ECCV 2020 | 4 | 4 | 77.72 | 55.65 | |
 | AutoReCon | IJCAI 2021 | 6 | 6 | 77.72 | 76.76 | |
 | AutoReCon | IJCAI 2021 | 5 | 5 | 77.72 | 74.13 | |
@@ -302,8 +302,8 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | DFQ | ICCV 2019 | 8 | 8 | 70.8 | 70.5 | Cross Layer Equalization + Bias Correction + Bias Absorption |
 | IntraQ | CVPR 2022 | 4 | 4 | 73.39 | 51.36 | |
 | IntraQ | CVPR 2022 | 5 | 5 | 73.39 | 68.17 | |
-| LRQ | arXiv | 4 | 4 | 56.87 | |
-| LRQ | arXiv | 5 | 5 | 68.60 | |
+| LRQ | arXiv | 4 | 4 | 73.39 | 56.87 | |
+| LRQ | arXiv | 5 | 5 | 73.39 | 68.60 | |
 
 ## MobileNet-V2 (ImageNet Classification)
 | Method | Venue | W-bit | A-bit | FP32 Baseline | Quantized | Notes |
