@@ -59,6 +59,7 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | ACQ: Improving Generative Data-free Quantization Via Attention Correction | ACQ | arXiv | [arXiv:2301.07266](https://arxiv.org/pdf/2301.07266.pdf) | | Adversarial |
 | PowerQuant: Automorphism Search for Non-Uniform Quantization | PowerQuant | ICLR 2023 | [arXiv:2301.09858](https://arxiv.org/pdf/2301.09858.pdf) | | |
 | Rethinking Data-Free Quantization as a Zero-Sum Game | AdaSG | AAAI 2023 | [arXiv:2302.09572](https://arxiv.org/pdf/2302.09572.pdf) | [GitHub](https://github.com/hfutqian/AdaSG) | Adversarial |
+| Adaptive Data-Free Quantization | AdaDFQ | CVPR 2023 | [arXiv:2303.06869](https://arxiv.org/pdf/2303.06869.pdf) | [GitHub](https://github.com/hfutqian/AdaDFQ) | Adversarial |
 
 # Baselines
 - If not mentioned, the result is cited from the original paper.
