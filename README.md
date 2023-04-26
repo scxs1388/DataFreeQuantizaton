@@ -39,6 +39,7 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | Data-Free Ensemble Knowledge Distillation for Privacy-conscious Multimedia Model Compression | DFED | MultiMedia 2021 | [ACM](https://doi.org/10.1145/3474085.3475329) | | Adversarial |
 | AutoReCon: Neural Architecture Search-based Reconstruction for Data-free Compression | AutoReCon, ARC | IJCAI 2021 | [arXiv:2105.12151](https://arxiv.org/pdf/2105.12151.pdf) | [GitHub](https://github.com/iamkanghyunchoi/ait) (reimplemented by AIT) | Adversarial |
 | Diverse Sample Generation: Pushing the Limit of Generative Data-free Quantization | DSG* | arXiv | [arXiv:2109.00212](https://arxiv.org/pdf/2109.00212.pdf) | [GitHub](https://github.com/liuguoyou/DSG) | Data Distillation |
+| Fine-grained Data Distribution Alignment for Post-Training Quantization | FDDA | ECCV 2022 | [arXiv:2109.04186](https://arxiv.org/pdf/2109.04186.pdf) | [GitHub](https://github.com/zysxmu/FDDA) | Adversarial, not Data-Free |
 | Qimera: Data-free Quantization with Synthetic Boundary Supporting Samples | Qimera | NeurIPS 2021 | [arXiv:2111.02625](https://arxiv.org/pdf/2111.02625.pdf) | [GitHub](https://github.com/iamkanghyunchoi/qimera) | Adversarial |
 | An Empirical study of Data-Free Quantization’s Tuning Robustness | | CVPR Workshops 2022 | [CVF Open Access](https://openaccess.thecvf.com/content/CVPR2022W/ArtOfRobust/papers/Chen_An_Empirical_Study_of_Data-Free_Quantizations_Tuning_Robustness_CVPRW_2022_paper.pdf) | | |
 | IntraQ: Learning Synthetic Images with Intra-Class Heterogeneity for Zero-Shot Network Quantization | IntraQ | CVPR 2022 | [arXiv:2111.09136](https://arxiv.org/pdf/2111.09136.pdf) | [GitHub](https://github.com/zysxmu/IntraQ) | Data Distillation |
@@ -56,10 +57,13 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | Zero-Shot Learning of a Conditional Generative Adversarial Network for Data-Free Network Quantization | | ICIP 2021 | [arXiv:2210.14392](https://arxiv.org/pdf/2210.14392.pdf) | | Adversarial |
 | Long-Range Zero-Shot Generative Deep Network Quantization | LRQ | arXiv | [arXiv:2211.06816](https://arxiv.org/pdf/2211.06816.pdf) | | Adversarial |
 | Dual-discriminator adversarial framework for data-free quantization | DDAQ | Neurocomputing 2022 Volume 511 | [ScienceDirect](https://doi.org/10.1016/j.neucom.2022.09.076) | | Adversarial |
+| GENIE: Show Me the Data for Quantization | GENIE | CVPR 2023 | [arXiv:2212.04780](https://arxiv.org/pdf/2212.04780.pdf) | | Adversarial |
 | ACQ: Improving Generative Data-free Quantization Via Attention Correction | ACQ | arXiv | [arXiv:2301.07266](https://arxiv.org/pdf/2301.07266.pdf) | | Adversarial |
 | PowerQuant: Automorphism Search for Non-Uniform Quantization | PowerQuant | ICLR 2023 | [arXiv:2301.09858](https://arxiv.org/pdf/2301.09858.pdf) | | |
 | Rethinking Data-Free Quantization as a Zero-Sum Game | AdaSG | AAAI 2023 | [arXiv:2302.09572](https://arxiv.org/pdf/2302.09572.pdf) | [GitHub](https://github.com/hfutqian/AdaSG) | Adversarial |
 | Adaptive Data-Free Quantization | AdaDFQ | CVPR 2023 | [arXiv:2303.06869](https://arxiv.org/pdf/2303.06869.pdf) | [GitHub](https://github.com/hfutqian/AdaDFQ) | Adversarial |
+| Hard Sample Matters a Lot in Zero-Shot Quantization | HAST | CVPR 2023 | [arXiv:2303.13826](https://arxiv.org/pdf/2303.13826.pdf) | [GitHub](https://github.com/lihuantong/hast) | Data Distillation |
+
 
 # Baselines
 - If not mentioned, the result is cited from the original paper.
