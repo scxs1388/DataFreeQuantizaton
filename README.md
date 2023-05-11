@@ -57,7 +57,7 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | Zero-Shot Learning of a Conditional Generative Adversarial Network for Data-Free Network Quantization | | ICIP 2021 | [arXiv:2210.14392](https://arxiv.org/pdf/2210.14392.pdf) | | Adversarial |
 | Long-Range Zero-Shot Generative Deep Network Quantization | LRQ | arXiv | [arXiv:2211.06816](https://arxiv.org/pdf/2211.06816.pdf) | | Adversarial |
 | Dual-discriminator adversarial framework for data-free quantization | DDAQ | Neurocomputing 2022 Volume 511 | [ScienceDirect](https://doi.org/10.1016/j.neucom.2022.09.076) | | Adversarial |
-| GENIE: Show Me the Data for Quantization | GENIE | CVPR 2023 | [arXiv:2212.04780](https://arxiv.org/pdf/2212.04780.pdf) | | Adversarial |
+| GENIE: Show Me the Data for Quantization | GENIE | CVPR 2023 | [arXiv:2212.04780](https://arxiv.org/pdf/2212.04780.pdf) | [GitHub](https://github.com/SamsungLabs/Genie) | Adversarial |
 | ACQ: Improving Generative Data-free Quantization Via Attention Correction | ACQ | arXiv | [arXiv:2301.07266](https://arxiv.org/pdf/2301.07266.pdf) | | Adversarial |
 | PowerQuant: Automorphism Search for Non-Uniform Quantization | PowerQuant | ICLR 2023 | [arXiv:2301.09858](https://arxiv.org/pdf/2301.09858.pdf) | | |
 | Rethinking Data-Free Quantization as a Zero-Sum Game | AdaSG | AAAI 2023 | [arXiv:2302.09572](https://arxiv.org/pdf/2302.09572.pdf) | [GitHub](https://github.com/hfutqian/AdaSG) | Adversarial |
