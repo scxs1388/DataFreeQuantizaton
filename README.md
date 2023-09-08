@@ -63,7 +63,11 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | Rethinking Data-Free Quantization as a Zero-Sum Game | AdaSG | AAAI 2023 | [arXiv:2302.09572](https://arxiv.org/pdf/2302.09572.pdf) | [GitHub](https://github.com/hfutqian/AdaSG) | Adversarial |
 | Adaptive Data-Free Quantization | AdaDFQ | CVPR 2023 | [arXiv:2303.06869](https://arxiv.org/pdf/2303.06869.pdf) | [GitHub](https://github.com/hfutqian/AdaDFQ) | Adversarial |
 | Hard Sample Matters a Lot in Zero-Shot Quantization | HAST | CVPR 2023 | [arXiv:2303.13826](https://arxiv.org/pdf/2303.13826.pdf) | [GitHub](https://github.com/lihuantong/hast) | Data Distillation |
-
+| LLM-QAT: Data-Free Quantization Aware Training for Large Language Models | LLM-QAT | arXiv | [arXiv:2305.17888](https://arxiv.org/pdf/2305.17888v1.pdf) | Pretrained Data Generator + Distillation |
+| Towards Accurate Data-free Quantization for Diffusion Models | ADP-DM | arXiv | [arXiv:2305.18723](https://arxiv.org/pdf/2305.18723.pdf) | |
+| Data-Free Quantization via Mixed-Precision Compensation without Fine-Tuning | DF-MPC | arXiv | [arXiv:2307.00498](https://arxiv.org/pdf/2307.00498.pdf) | |
+| NUPES: Non-Uniform Post-Training Quantization via Power Exponent Search | NUPES | arXiv | [arXiv:2308.05600](https://arxiv.org/pdf/2308.05600.pdf) | |
+| Unified Data-Free Compression: Pruning and Quantization without Fine-Tuning | UDFC | ICCV 2023 | [arXiv:2308.07209](https://arxiv.org/pdf/2308.07209.pdf) | [GitHub](https://github.com/Dtudy/UDFC) (Unavailable) | |
 
 # Baselines
 - If not mentioned, the result is cited from the original paper.
