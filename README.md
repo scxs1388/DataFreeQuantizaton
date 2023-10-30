@@ -67,7 +67,9 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | Towards Accurate Data-free Quantization for Diffusion Models | ADP-DM | arXiv | [arXiv:2305.18723](https://arxiv.org/pdf/2305.18723.pdf) | |
 | Data-Free Quantization via Mixed-Precision Compensation without Fine-Tuning | DF-MPC | arXiv | [arXiv:2307.00498](https://arxiv.org/pdf/2307.00498.pdf) | |
 | NUPES: Non-Uniform Post-Training Quantization via Power Exponent Search | NUPES | arXiv | [arXiv:2308.05600](https://arxiv.org/pdf/2308.05600.pdf) | |
-| Unified Data-Free Compression: Pruning and Quantization without Fine-Tuning | UDFC | ICCV 2023 | [arXiv:2308.07209](https://arxiv.org/pdf/2308.07209.pdf) | [GitHub](https://github.com/Dtudy/UDFC) (Unavailable) | |
+| Unified Data-Free Compression: Pruning and Quantization without Fine-Tuning | UDFC | ICCV 2023 | [arXiv:2308.07209](https://arxiv.org/pdf/2308.07209.pdf) | [GitHub](https://github.com/Dtudy/UDFC) | |
+| Causal-DFQ: Causality Guided Data-free Network Quantization | Causal-DFQ | ICCV 2023 | [arXiv:2309.13682](https://arxiv.org/pdf/2309.13682.pdf) | [GitHub](https://github.com/42Shawn/Causal-DFQ) | Adversarial |
+| Robustness-Guided Image Synthesis for Data-Free Quantization | RIS | arXiv | [arXiv:2310.03661](https://arxiv.org/pdf/2310.03661.pdf) | | Adversarial |
 
 # Baselines
 - If not mentioned, the result is cited from the original paper.
