@@ -70,6 +70,9 @@ There are two branches of data-free quantization methods: theoretical analysis a
 | Unified Data-Free Compression: Pruning and Quantization without Fine-Tuning | UDFC | ICCV 2023 | [arXiv:2308.07209](https://arxiv.org/pdf/2308.07209.pdf) | [GitHub](https://github.com/Dtudy/UDFC) | |
 | Causal-DFQ: Causality Guided Data-free Network Quantization | Causal-DFQ | ICCV 2023 | [arXiv:2309.13682](https://arxiv.org/pdf/2309.13682.pdf) | [GitHub](https://github.com/42Shawn/Causal-DFQ) | Adversarial |
 | Robustness-Guided Image Synthesis for Data-Free Quantization | RIS | arXiv | [arXiv:2310.03661](https://arxiv.org/pdf/2310.03661.pdf) | | Adversarial |
+| TexQ: Zero-shot Network Quantization with Texture Feature Distribution Calibration | TexQ | NeurIPS 2023 | [OpenReview](https://openreview.net/pdf?id=r8LYNleLf9) | | Adversarial |
+| Zero-Shot Sharpness-Aware Quantization for Pre-trained Language Models | SAM-SGA | EMNLP 2023 | [arXiv:2310.13315](https://arxiv.org/pdf/2310.13315.pdf) | | Adversarial |
+| StableQ: Enhancing Data-Scarce Quantization with Text-to-Image Data | StableQ | arXiv | [arXiv:2312.05272](https://arxiv.org/pdf/2312.05272.pdf) | | Stable Diffusion |
 
 # Baselines
 - If not mentioned, the result is cited from the original paper.
